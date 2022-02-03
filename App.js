@@ -17,6 +17,13 @@ export default function App() {
             isFavorite: !prevContact.isFavorite
         }))
     }
+    /*function toggleFavorite() {
+        setContact(prevContact =>{
+            return{
+                ...prevContact,isFavorite:!prevContact.isFavorite
+            }
+        })
+    }*/
     
     return (
         <main>
